@@ -33,8 +33,8 @@ const Navbar = () => {
                             className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
                             ShopHub
                         </a>
-                        <div>
-                            <ul>
+                        <div className='hidden lg:block'>
+                            <ul className='flex items-center gap-4'>
                                 {
                                    MenuLinks.map((data, index) => (
                                      <li key={index}>
