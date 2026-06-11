@@ -37,8 +37,8 @@ const Navbar = () => {
                             <ul>
                                 {
                                    MenuLinks.map((data, index) => (
-                                     <li>
-                                        <a href=""></a>
+                                     <li key={index}>
+                                        <a href={data.link}>{data.name}</a>
                                      </li>
                                    ))
                                 }
