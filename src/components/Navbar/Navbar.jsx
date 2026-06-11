@@ -50,10 +50,10 @@ const Navbar = () => {
                     </div>
 
                     <div>
-                        <div>
+                        <div className='relative group hidden sm:block'>
                             <input type="text"
                                 placeholder='Search'
-                                className='' />
+                                className='search-bar' />
                             <IoMdSearch
                                 className='text-xl text-gray-600 dark:text-gray-400' />
                         </div>

@@ -21,3 +21,9 @@
         padding-inline: 3rem;
     }
 }
+
+@layer components {
+    .search-bar {
+        @apply w-full;
+    }
+}
