@@ -54,8 +54,8 @@ const Navbar = () => {
                             <input type="text"
                                 placeholder='Search'
                                 className='' />
-                                <IoMdSearch 
-                                />
+                            <IoMdSearch
+                                className='text-xl text-gray-600 dark:text-gray-400' />
                         </div>
                         <div></div>
                     </div>
