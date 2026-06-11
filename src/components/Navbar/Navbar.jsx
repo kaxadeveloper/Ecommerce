@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 const Navbar = () => {
     return (
@@ -10,9 +11,16 @@ const Navbar = () => {
                             className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
                             ShopHub
                         </a>
-                        <div></div>
                         <div>
-                            
+                            <ul>
+                                {
+                                   MenuLinks.map((data, index) => (
+                                     <li>
+                                        <a href=""></a>
+                                     </li>
+                                   ))
+                                }
+                            </ul>
                         </div>
                     </div>
                 </div>
