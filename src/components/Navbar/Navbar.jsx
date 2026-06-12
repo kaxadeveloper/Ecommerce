@@ -59,7 +59,7 @@ const Navbar = () => {
                                 className='text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200' />
                         </div>
                         <button>
-                            <FaCartShopping />
+                            <FaCartShopping className='text-xl text-gray-600 dark:text-gray-400'/>
                         </button>
                         <div></div>
                     </div>
