@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaCartShopping } from 'react-icons/fa6';
 import { IoMdSearch } from 'react-icons/io';
 
 const MenuLinks = [
@@ -58,7 +59,7 @@ const Navbar = () => {
                                 className='text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200' />
                         </div>
                         <button>
-                            
+                            <FaCartShopping />
                         </button>
                         <div></div>
                     </div>
