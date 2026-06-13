@@ -6,7 +6,7 @@ const DarkMode = () => {
     const [theme, setTheme] = React.useState("dark");
 
     return (
-        <div>
+        <div className='relative'>
             <img src={LightButton} alt=""
                 className={`w-7 cursor-pointer ${theme === "dark" ? "opacity-0" : "opacity-100"
                 }`}
