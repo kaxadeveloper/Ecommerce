@@ -8,7 +8,8 @@ const DarkMode = () => {
     return (
         <div>
             <img src={LightButton} alt=""
-                className={`w-12 cursor-pointer`}
+                className={`w-7 cursor-pointer ${theme === "dark" ? "opacity-0" : "opacity-100"
+                }`}
             />
         </div>
     )
