@@ -3,7 +3,10 @@ import LightButton from "../../assets/website/light-mode-button.png";
 import DarkButton from "../../assets/website/dark-mode-button.png";
 
 const DarkMode = () => {
-    const [theme, setTheme] = React.useState("dark");
+    const [theme, setTheme] = React.useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    );
+
+    
 
     return (
         <div className='relative'>
