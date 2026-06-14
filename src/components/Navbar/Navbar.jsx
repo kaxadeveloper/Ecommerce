@@ -48,12 +48,12 @@ const Navbar = () => {
                                             </a>
                                         </li>
                                     ))}
-                                <li>
+                                <li className='relative cursor-pointer group'>
                                     <a href="#" className=''>
                                         Quick Links
                                     </a>
                                     <span>
-                                        <FaCaretDown />
+                                        <FaCaretDown className='group-hover:rotate-180 duration-300'/>
                                     </span>
                                 </li>
                             </ul>
