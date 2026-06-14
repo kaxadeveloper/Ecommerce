@@ -52,6 +52,9 @@ const Navbar = () => {
                                     <a href="#" className=''>
                                         Quick Links
                                     </a>
+                                    <span>
+                                        
+                                    </span>
                                 </li>
                             </ul>
                         </div>
