@@ -8,6 +8,15 @@ const DarkMode = () => {
 
     const element = document.documentElement;
 
+    React.useEffect(() => {
+        localStorage.setItem("theme", theme);
+        if (theme === "dark") {
+            element.classList.add("dark");
+        } else {
+            element.classList.remove("dark");
+        }
+    })
+
     return (
         <div className='relative'>
             <img onClick={() => setTheme(theme === "dark" ? "light" : "dark")} src={LightButton} alt=""
