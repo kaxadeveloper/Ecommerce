@@ -49,12 +49,12 @@ const Navbar = () => {
                                         </li>
                                     ))}
                                 <li className='relative cursor-pointer group'>
-                                    <a href="#" className=''>
+                                    <a href="#" className='flex items-center gap-[2px] font-semibold text-gray-500 dark:hover:text-white py-2'>
                                         Quick Links
+                                        <span>
+                                            <FaCaretDown className='group-hover:rotate-180 duration-300' />
+                                        </span>
                                     </a>
-                                    <span>
-                                        <FaCaretDown className='group-hover:rotate-180 duration-300'/>
-                                    </span>
                                 </li>
                             </ul>
                         </div>
