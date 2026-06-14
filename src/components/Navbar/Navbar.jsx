@@ -79,7 +79,7 @@ const Navbar = () => {
                                             {
                                                 DropdownLinks.map((data, index) => (
                                                     <li>
-
+                                                      <a href={data.link}>{data.name}</a>
                                                     </li>
                                                 ))
                                             }
