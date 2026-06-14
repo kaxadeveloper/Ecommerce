@@ -74,8 +74,8 @@ const Navbar = () => {
                                         </span>
                                     </a>
 
-                                    <div>
-                                        <ul>
+                                    <div >
+                                        <ul className='space-y-2'>
                                             {
                                                 DropdownLinks.map((data, index) => (
                                                     <li>
