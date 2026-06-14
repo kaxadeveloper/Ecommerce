@@ -24,6 +24,24 @@ const MenuLinks = [
         name: "Blogs",
         link: "/#blog",
     },
+];
+
+const DropdownLinks = [
+    {
+        id: 1,
+        name: "Trending Products",
+        link: "/#",
+    },
+    {
+        id: 2,
+        name: "Best Selling",
+        link: "/#",
+    },
+    {
+        id: 3,
+        name: "Top Rated",
+        link: "/#",
+    },
 ]
 
 const Navbar = () => {
@@ -59,11 +77,11 @@ const Navbar = () => {
                                     <div>
                                         <ul>
                                             {
-                                               DropdownLinks.map((data, index) => (
-                                                <li>
-                                                    
-                                                </li>
-                                               )) 
+                                                DropdownLinks.map((data, index) => (
+                                                    <li>
+
+                                                    </li>
+                                                ))
                                             }
                                         </ul>
                                     </div>
