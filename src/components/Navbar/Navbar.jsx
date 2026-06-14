@@ -55,6 +55,18 @@ const Navbar = () => {
                                             <FaCaretDown className='group-hover:rotate-180 duration-300' />
                                         </span>
                                     </a>
+
+                                    <div>
+                                        <ul>
+                                            {
+                                               DropdownLinks.map((data, index) => (
+                                                <li>
+                                                    
+                                                </li>
+                                               )) 
+                                            }
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
