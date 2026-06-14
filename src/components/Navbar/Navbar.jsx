@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCartShopping } from 'react-icons/fa6';
+import { FaCaretDown, FaCartShopping } from 'react-icons/fa6';
 import { IoMdSearch } from 'react-icons/io';
 import DarkMode from './DarkMode';
 
@@ -53,7 +53,7 @@ const Navbar = () => {
                                         Quick Links
                                     </a>
                                     <span>
-                                        
+                                        <FaCaretDown />
                                     </span>
                                 </li>
                             </ul>
