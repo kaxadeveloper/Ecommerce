@@ -79,7 +79,7 @@ const Navbar = () => {
                                             {
                                                 DropdownLinks.map((data, index) => (
                                                     <li>
-                                                      <a href={data.link}>{data.name}</a>
+                                                      <a className='text-gray-500 hover:text-black dark:hover:text-wh duration-200' href={data.link}>{data.name}</a>
                                                     </li>
                                                 ))
                                             }
