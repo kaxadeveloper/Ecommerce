@@ -43,10 +43,16 @@ const Navbar = () => {
                                         <li key={index}>
                                             <a href={data.link}
                                                 className='inline-block px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200 '
-                                            >{" "}{data.name}</a>
+                                            >{" "}
+                                                {data.name}
+                                            </a>
                                         </li>
-                                    ))
-                                }
+                                    ))}
+                                <li>
+                                    <a href="#" className=''>
+                                        Quick Links
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
