@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Slider from "react-slick";
 
 const Hero = () => {
 
@@ -12,13 +13,13 @@ const Hero = () => {
         cssEase: "ease-in-out",
         pauseOnHover: false,
         pauseOnFocus: true,
-    }
+    };
 
   return (
     <div>
       <div>
         <Slider>
-
+          
         </Slider>
       </div>
     </div>
