@@ -1,9 +1,11 @@
 import React from 'react';
 import Slider from "react-slick";
 
-const HeroSlide = () => {
-    
-}
+const HeroSlide = [
+    {
+        
+    }
+]
 
 const Hero = () => {
 
