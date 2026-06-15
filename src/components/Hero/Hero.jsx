@@ -1,8 +1,10 @@
 import React from 'react';
-import Slider from "react-slick";
+import SliderImport from "react-slick";
 import Image1 from "../../assets/hero/headphone.jpg";
 import Image2 from "../../assets/category/VR.webp";
 import Image3 from "../../assets/category/macbook.jpg";
+
+const Slider = SliderImport.default ?? SliderImport;
 
 const HeroSlide = [
     {
@@ -29,6 +31,7 @@ const HeroSlide = [
 ]
 
 const Hero = () => {
+    console.log(Slider);
 
     const settings = {
         dots: false,
@@ -40,6 +43,8 @@ const Hero = () => {
         cssEase: "ease-in-out",
         pauseOnHover: false,
         pauseOnFocus: true,
+        slidesToShow: 1,
+        autoplay: true,
     };
 
     return (
@@ -47,7 +52,7 @@ const Hero = () => {
             <div className='w-full'>
                 <Slider {...settings}>
                     {
-                        HeroData.map((data) => (
+                        HeroSlide.map((data) => (
                             <div key={data.id}>
                                 <div className='grid grid-cols-1 sm:grid-cols-2'>
                                     <div>
@@ -58,7 +63,13 @@ const Hero = () => {
                                             <button>Shop Now</button>
                                         </div>
                                     </div>
-                                    <div></div>
+                                    <div>
+                                        <div>
+                                            <img src={data.img} alt=""
+                                                className='w-[300px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-110 object-contain  mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]'
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         ))
