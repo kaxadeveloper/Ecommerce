@@ -1,11 +1,24 @@
 import React from 'react'
 
 const Hero = () => {
+
+    const settings = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 800,
+        slidesToScroll: 1,
+        autoplaySpeed: 4000,
+        cssEase: "ease-in-out",
+        pauseOnHover: false,
+        pauseOnFocus: true,
+    }
+
   return (
     <div>
       <div>
         <Slider>
-            
+
         </Slider>
       </div>
     </div>
