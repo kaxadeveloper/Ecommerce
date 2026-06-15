@@ -48,7 +48,7 @@ const Hero = () => {
     };
 
     return (
-        <div>
+        <div className='container'>
             <div className='w-full'>
                 <Slider {...settings}>
                     {
