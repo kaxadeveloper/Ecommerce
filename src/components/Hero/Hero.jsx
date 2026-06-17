@@ -3,6 +3,7 @@ import SliderImport from "react-slick";
 import Image1 from "../../assets/hero/headphone.jpg";
 import Image2 from "../../assets/category/VR.webp";
 import Image3 from "../../assets/category/macbook.jpg";
+import Button from '../Shared/Button';
 
 const Slider = SliderImport.default ?? SliderImport;
 
@@ -60,7 +61,7 @@ const Hero = () => {
                                             <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold'>{data.title}</h1>
                                             <h1 className='text-5xl uppercase text-white dark:text-white/5 sm:text-[80px] md:text-[100px] xl:text-[150px] font-bold'>{data.title2}</h1>
                                             <div>
-                                                <button>Shop Now</button>
+                                                <Button text="Shop Now" bgColor="bg-primary" textColor="text-white" />
                                             </div>
                                         </div>
                                         <div className='order-1 sm:order-2'>
