@@ -5,7 +5,7 @@ import Image3 from "../../assets/category/macbook.jpg";
 
 const Category = () => {
     return (
-        <div>
+        <div className='py-8'>
             <div></div>
         </div>
     )
