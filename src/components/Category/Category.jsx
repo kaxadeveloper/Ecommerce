@@ -22,6 +22,9 @@ const Category = () => {
                                 />
                             </div>
                         </div>
+                        <img src={Image1} alt=""
+                         
+                        />
                     </div>
                 </div>
             </div>
