@@ -12,7 +12,7 @@ const Category = () => {
                     <div className='py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative h-[320px] flex items-end'>
                         <div>
                             <div className='mb-4'>
-                                <p>Enjoy</p>
+                                <p className='mb-[2px] text-gray-400'>Enjoy</p>
                                 <p>With</p>
                                 <p>Earphone</p>
                                 <Button
@@ -23,7 +23,7 @@ const Category = () => {
                             </div>
                         </div>
                         <img src={Image1} alt=""
-                         className='w-[320px] absolute bottom-0'
+                            className='w-[320px] absolute bottom-0'
                         />
                     </div>
                 </div>
