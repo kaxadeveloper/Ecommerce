@@ -2,6 +2,7 @@ import React from 'react';
 import Image1 from "../../assets/category/earphone.jpg";
 import Image2 from "../../assets/category/watch.webp";
 import Image3 from "../../assets/category/macbook.jpg";
+import Button from '../Shared/Button';
 
 const Category = () => {
     return (
@@ -14,6 +15,7 @@ const Category = () => {
                                 <p>Enjoy</p>
                                 <p>With</p>
                                 <p>Earphone</p>
+                                <Button></Button>
                             </div>
                         </div>
                     </div>
