@@ -14,7 +14,7 @@ const Category = () => {
                             <div className='mb-4'>
                                 <p className='mb-[2px] text-gray-400'>Enjoy</p>
                                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
-                                <p className='text-4xl xl:text-5xl font-bold opacity-20'>Earphone</p>
+                                <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-2'>Earphone</p>
                                 <Button
                                     text="Browse"
                                     bgColor={"bg-primary"}
@@ -26,6 +26,25 @@ const Category = () => {
                             className='w-[320px] absolute bottom-0'
                         />
                     </div>
+
+                    <div className='py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-end'>
+                        <div>
+                            <div className='mb-4'>
+                                <p className='mb-[2px] text-gray-400'>Enjoy</p>
+                                <p className='text-2xl font-semibold mb-[2px]'>With</p>
+                                <p className='text-4xl xl:text-5xl font-bold opacity-40 mb-2'>Watch</p>
+                                <Button
+                                    text="Browse"
+                                    bgColor={"bg-white"}
+                                    textColor={"text-brandYellow"}
+                                />
+                            </div>
+                        </div>
+                        <img src={Image2} alt=""
+                            className='w-[320px] absolute -right-4 lg:top-[40px]'
+                        />
+                    </div>
+
                 </div>
             </div>
         </div>
