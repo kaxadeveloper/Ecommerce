@@ -23,7 +23,7 @@ const Category = () => {
                             </div>
                         </div>
                         <img src={Image1} alt=""
-                         
+                         className='w-[320px] absolute bottom-0'
                         />
                     </div>
                 </div>
