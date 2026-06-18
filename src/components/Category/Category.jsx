@@ -9,9 +9,9 @@ const Category = () => {
         <div className='py-8'>
             <div className='container'>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div>
+                    <div className='py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative h-[320px] flex items-end'>
                         <div>
-                            <div>
+                            <div className=''>
                                 <p>Enjoy</p>
                                 <p>With</p>
                                 <p>Earphone</p>
