@@ -15,7 +15,11 @@ const Category = () => {
                                 <p>Enjoy</p>
                                 <p>With</p>
                                 <p>Earphone</p>
-                                <Button></Button>
+                                <Button
+                                    text="Browse"
+                                    bgColor={"bg-primary"}
+                                    textColor={"text-white"}
+                                />
                             </div>
                         </div>
                     </div>
