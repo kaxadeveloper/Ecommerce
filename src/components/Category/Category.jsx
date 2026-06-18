@@ -13,7 +13,7 @@ const Category = () => {
                         <div>
                             <div className='mb-4'>
                                 <p className='mb-[2px] text-gray-400'>Enjoy</p>
-                                <p>With</p>
+                                <p className='text-2xl font-semibold mb-[2px]'>With</p>
                                 <p>Earphone</p>
                                 <Button
                                     text="Browse"
