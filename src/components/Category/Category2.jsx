@@ -28,7 +28,7 @@ const Category = () => {
                         />
                     </div>
 
-                    <div className='py-10 pl-5 bg-gradient-to-br from-brandGreen/90 to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-end'>
+                    <div className='py-10 pl-5 bg-gradient-to-br from-brandGreen/90 to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-start'>
                         <div>
                             <div className='mb-4'>
                                 <p className='mb-[2px] text-white'>Enjoy</p>
