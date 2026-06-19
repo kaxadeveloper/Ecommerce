@@ -10,7 +10,7 @@ const Category = () => {
             <div className='container'>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-                    <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-300/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-end'>
+                    <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-end'>
                         <div>
                             <div className='mb-4'>
                                 <p className='mb-[2px] text-white'>Enjoy</p>
@@ -18,8 +18,8 @@ const Category = () => {
                                 <p className='text-4xl xl:text-5xl font-bold opacity-40'>Speaker</p>
                                 <Button
                                     text="Browse"
-                                    bgColor={"bg-white"}
-                                    textColor={"text-primary"}
+                                    bgColor={"bg-primary"}
+                                    textColor={"text-white"}
                                 />
                             </div>
                         </div>
