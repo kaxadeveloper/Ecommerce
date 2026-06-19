@@ -45,21 +45,21 @@ const Category = () => {
                         />
                     </div>
 
-                    <div className='py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-end'>
+                    <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end'>
                         <div>
                             <div className='mb-4'>
-                                <p className='mb-[2px] text-gray-400'>Enjoy</p>
+                                <p className='mb-[2px] text-white'>Enjoy</p>
                                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
-                                <p className='text-4xl xl:text-5xl font-bold opacity-40 mb-2'>Macbook</p>
+                                <p className='text-4xl xl:text-5xl font-bold opacity-40'>Macbook</p>
                                 <Button
                                     text="Browse"
                                     bgColor={"bg-white"}
-                                    textColor={"text-brandYellow"}
+                                    textColor={"text-primary"}
                                 />
                             </div>
                         </div>
                         <img src={Image3} alt=""
-                            className='w-[320px] absolute -right-4 lg:top-[40px]'
+                            className='w-[250px] absolute top-1/2 -translate-y-1/2 -right-0'
                         />
                     </div>
                 </div>
