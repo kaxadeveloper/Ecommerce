@@ -55,12 +55,12 @@ const Category = () => {
                                 <Button
                                     text="Browse"
                                     bgColor={"bg-white"}
-                                    textColor={"text-brandYellow"}
+                                    textColor={"text-brandBlue"}
                                 />
                             </div>
                         </div>
                         <img src={Image2} alt=""
-                            className='w-[320px] absolute -right-4 lg:top-[40px]'
+                            className='w-[200px] absolute bottom-0 right-0'
                         />
                     </div>
 
