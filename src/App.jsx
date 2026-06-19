@@ -11,6 +11,7 @@ const App = () => {
       <Hero />
       <Category />
       <Category2 />
+      
     </div>
   )
 }
