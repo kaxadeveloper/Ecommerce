@@ -33,7 +33,11 @@ const Services = () => {
         <div>
             <div className="container">
                 <div className="grid">
-                    <div></div>
+                    {
+                        ServicesData.map((data) => (
+                            <div></div>
+                        ))
+                    }
                 </div>
             </div>
         </div>
