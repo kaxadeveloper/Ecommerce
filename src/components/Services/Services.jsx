@@ -37,6 +37,7 @@ const Services = () => {
                         ServiceData.map((data) => (
                             <div>
                                 {data.icon}
+                                <h1>{data.title}</h1>
                             </div>
                         ))
                     }
