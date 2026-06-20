@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCarSide, FaHeadphonesAlt, FaWallet, FaCheckCircle } from 'react-icons/fa';
 
-const ServicesData = [
+const ServiceData = [
     {
         id: 1,
         icon: <FaCarSide className='text-4xl md:text-5xl text-primary' />,
@@ -34,8 +34,10 @@ const Services = () => {
             <div className="container">
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
                     {
-                        ServicesData.map((data) => (
-                            <div></div>
+                        ServiceData.map((data) => (
+                            <div>
+                                {data.icon}
+                            </div>
                         ))
                     }
                 </div>
