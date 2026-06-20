@@ -32,7 +32,7 @@ const Services = () => {
     return (
         <div>
             <div className="container">
-                <div className="grid">
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
                     {
                         ServicesData.map((data) => (
                             <div></div>
