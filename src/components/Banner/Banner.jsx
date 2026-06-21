@@ -1,11 +1,15 @@
 import React from 'react'
 
-const Banner = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const Banner = ({ data }) => {
+    return (
+        <div className='min-h-[550px] flex justify-center items-center py-12'>
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default Banner
