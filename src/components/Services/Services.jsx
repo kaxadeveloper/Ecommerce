@@ -39,7 +39,7 @@ const Services = () => {
                                 {data.icon}
                                 <div>
                                     <h1 className='lg:text-xl font-bold'>{data.title}</h1>
-                                    <h1>{data.description}</h1>
+                                    <h1 className='text-gray-400 text-sm'>{data.description}</h1>
                                 </div>
                             </div>
                         ))
