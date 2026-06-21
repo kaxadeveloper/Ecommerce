@@ -4,6 +4,18 @@ import Hero from './components/Hero/Hero'
 import Category from './components/Category/Category'
 import Category2 from './components/Category/Category2'
 import Services from './components/Services/Services'
+import Banner from './components/Banner/Banner'
+
+const BannerData = {
+  discount: "30% OFF",
+  title: "Fine Smile",
+  date: "25 Dec to 14 Jan",
+  image: headphone,
+  title2: "Air Solo Bass",
+  title3: "Winter Sale",
+  title4: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nisi?",
+  bgColor: "#f42c37",
+};
 
 const App = () => {
   return (
@@ -13,6 +25,7 @@ const App = () => {
       <Category />
       <Category2 />
       <Services />
+      <Banner />
     </div>
   )
 }
