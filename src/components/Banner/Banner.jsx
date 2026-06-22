@@ -15,6 +15,11 @@ const Banner = ({ data }) => {
                             className='scale-125 w-[250px] md:w-[340px] mx-auto drop-shadow-2xl 0bject-cover'
                         />
                     </div>
+                    <div>
+                        <p>{data.title2}</p>
+                        <p>{data.title3}</p>
+                        <p>{data.title4}</p>
+                    </div>
                 </div>
             </div>
         </div>
