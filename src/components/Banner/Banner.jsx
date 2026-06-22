@@ -6,7 +6,7 @@ const Banner = ({ data }) => {
             <div style={{ backgroundColor: data.bgColor }} className='container'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl'>
                     <div className='p-6 sm:p-8'>
-                        <p>{data.discount}</p>
+                        <p className='text-sm'>{data.discount}</p>
                         <h1> {data.title}</h1>
                         <p>{data.date}</p>
                     </div>
