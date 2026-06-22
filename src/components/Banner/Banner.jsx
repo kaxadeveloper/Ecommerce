@@ -5,7 +5,9 @@ const Banner = ({ data }) => {
         <div className='min-h-[550px] flex justify-center items-center py-12'>
             <div className='container'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl'>
-
+                    <div>
+                        <p>{data.discount}</p>
+                    </div>
                 </div>
             </div>
         </div>
