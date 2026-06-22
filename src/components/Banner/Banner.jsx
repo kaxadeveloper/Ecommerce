@@ -10,6 +10,11 @@ const Banner = ({ data }) => {
                         <h1 className='uppercase text-4xl lg:text-7xl font-bold'>{" "}{data.title}</h1>
                         <p className='text-sm'>{data.date}</p>
                     </div>
+                    <div className='h-full flex items-center'>
+                        <img src={data.image} alt=""
+                            className=''
+                        />
+                    </div>
                 </div>
             </div>
         </div>
