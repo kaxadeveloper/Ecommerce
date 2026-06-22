@@ -6,6 +6,8 @@ import Category2 from './components/Category/Category2'
 import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
 
+import headphone from "./assets/hero/headphone.jpg"
+
 const BannerData = {
   discount: "30% OFF",
   title: "Fine Smile",
