@@ -8,7 +8,7 @@ const Banner = ({ data }) => {
                     <div>
                         <p>{data.discount}</p>
                         <h1> {data.title}</h1>
-                        
+                        <p>{data.date}</p>
                     </div>
                 </div>
             </div>
