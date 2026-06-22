@@ -12,7 +12,7 @@ const Banner = ({ data }) => {
                     </div>
                     <div className='h-full flex items-center'>
                         <img src={data.image} alt=""
-                            className=''
+                            className='scale-125 w-[250px] md:w-[340px] mx-auto drop-shadow-2xl 0bject-cover'
                         />
                     </div>
                 </div>
