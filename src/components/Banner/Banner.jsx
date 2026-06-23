@@ -15,7 +15,7 @@ const Banner = ({ data }) => {
                             className='scale-125 w-[250px] md:w-[340px] mx-auto drop-shadow-2xl 0bject-cover'
                         />
                     </div>
-                    <div>
+                    <div className='flex flex-col justify-center gap-4 p-6 sm:p-8'>
                         <p>{data.title2}</p>
                         <p>{data.title3}</p>
                         <p>{data.title4}</p>
