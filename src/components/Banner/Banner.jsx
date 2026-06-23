@@ -17,8 +17,8 @@ const Banner = ({ data }) => {
                     </div>
                     <div className='flex flex-col justify-center gap-4 p-6 sm:p-8'>
                         <p className='font-bold text-xl'>{data.title2}</p>
-                        <p>{data.title3}</p>
-                        <p>{data.title4}</p>
+                        <p className='text-sm tracking-wide leading-5'>{data.title3}</p>
+                        <p className='text-sm'>{data.title4}</p>
                         <div>
                             <button>Shop Now</button>
                         </div>
