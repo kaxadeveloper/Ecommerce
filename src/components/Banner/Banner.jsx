@@ -19,6 +19,9 @@ const Banner = ({ data }) => {
                         <p>{data.title2}</p>
                         <p>{data.title3}</p>
                         <p>{data.title4}</p>
+                        <div>
+                            <button>Shop Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
