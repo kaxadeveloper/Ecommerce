@@ -5,8 +5,8 @@ import Category from './components/Category/Category'
 import Category2 from './components/Category/Category2'
 import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
-
 import headphone from "./assets/hero/headphone2.png"
+import Products from './components/Products/Products'
 
 const BannerData = {
   discount: "30% OFF",
