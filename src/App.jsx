@@ -28,6 +28,7 @@ const App = () => {
       <Category2 />
       <Services />
       <Banner data={BannerData} />
+      <Products />
     </div>
   )
 }
