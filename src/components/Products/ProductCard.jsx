@@ -12,7 +12,7 @@ const ProductCard = ({ data }) => {
                                     className='h-[180px] w-[260px] object-contain rounded-md'
                                 />
                             </div>
-                            <div>
+                            <div className='leading-7'>
                                 <h2>{data.title}</h2>
                                 <h2>${data.price}</h2>
                             </div>
