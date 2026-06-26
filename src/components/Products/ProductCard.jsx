@@ -9,8 +9,11 @@ const ProductCard = ({ data }) => {
                         <div key={data.id}>
                             <div>
                                 <img src={data.img} alt=""
-                                    className='[h-180px] w-[260px] object-cover rounded-md'
+                                    className='h-[180px] w-[260px] object-contain rounded-md'
                                 />
+                            </div>
+                            <div>
+                                <h2>{data.title}</h2>
                             </div>
                         </div>
                     ))
