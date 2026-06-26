@@ -7,7 +7,7 @@ const ProductCard = ({ data }) => {
                 {
                     data.map((data) => (
                         <div key={data.id}>
-                            <div>
+                            <div className='relative'>
                                 <img src={data.img} alt=""
                                     className='h-[180px] w-[260px] object-contain rounded-md'
                                 />
