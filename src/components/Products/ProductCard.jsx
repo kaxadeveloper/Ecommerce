@@ -12,7 +12,7 @@ const ProductCard = ({ data }) => {
                                 <img src={data.img} alt=""
                                     className='h-[180px] w-[260px] object-contain rounded-md'
                                 />
-                                <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full text-center group-hover:backdrop-blur-sm'>
+                                <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full text-center group-hover:backdrop-blur-smjusify-center items-center duration-200'>
                                     <Button
                                         text={"Add to cart"}
                                         bgColor={"bg-primary"}
