@@ -14,6 +14,7 @@ const ProductCard = ({ data }) => {
                             </div>
                             <div>
                                 <h2>{data.title}</h2>
+                                <h2>${data.price}</h2>
                             </div>
                         </div>
                     ))
