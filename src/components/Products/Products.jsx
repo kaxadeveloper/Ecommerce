@@ -73,7 +73,6 @@ const ProductsData2 = [
     },
 ]
 
-
 const Products = () => {
     return (
         <div>
