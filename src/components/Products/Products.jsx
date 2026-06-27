@@ -42,12 +42,45 @@ const ProductsData = [
     },
 ]
 
+const ProductsData2 = [
+    {
+        id: 1,
+        img: Img5,
+        title: "Boat Headphone",
+        price: "120",
+        aosDelay: "0",
+    },
+    {
+        id: 2,
+        img: Img6,
+        title: "Rocky Mountain",
+        price: "420",
+        aosDelay: "200",
+    },
+    {
+        id: 3,
+        img: Img7,
+        title: "Goggles",
+        price: "320",
+        aosDelay: "400",
+    },
+    {
+        id: 4,
+        img: Img8,
+        title: "Printed",
+        price: "220",
+        aosDelay: "600",
+    },
+]
+
+
 const Products = () => {
     return (
         <div>
             <div className="container">
                 <Heading title="Our Products" subtitle={"Explore Our Products"}/>
                 <ProductCard data={ProductsData} />
+                <ProductCard data={ProductsData2} />
             </div>
         </div>
     )
