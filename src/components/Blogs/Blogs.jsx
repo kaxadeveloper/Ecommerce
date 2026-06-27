@@ -42,7 +42,7 @@ const Blogs = () => {
                                     <img src={data.image} alt="" />
                                 </div>
                                 <div className='space-y-2'>
-                                    <p>{data.published}</p>
+                                    <p className='text-xs text-gray-500'>{data.published}</p>
                                     <p>{data.title}</p>
                                     <p>{data.subtitle}</p>
                                 </div>
