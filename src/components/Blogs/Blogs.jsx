@@ -41,6 +41,11 @@ const Blogs = () => {
                                 <div>
                                     <img src={data.image} alt="" />
                                 </div>
+                                <div>
+                                    <p>{data.published}</p>
+                                    <p>{data.title}</p>
+                                    <p>{data.subtitle}</p>
+                                </div>
                             </div>
                         ))
                     }
