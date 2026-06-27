@@ -41,7 +41,7 @@ const Blogs = () => {
                                 <div>
                                     <img src={data.image} alt="" />
                                 </div>
-                                <div>
+                                <div className='space-y-2'>
                                     <p>{data.published}</p>
                                     <p>{data.title}</p>
                                     <p>{data.subtitle}</p>
