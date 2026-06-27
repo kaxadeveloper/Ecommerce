@@ -5,7 +5,7 @@ const Blogs = () => {
     return (
         <div>
             <div className="container">
-                <Heading />
+                <Heading title="Recent News" subtitle={"Explore Our Blogs"}/>
             </div>
         </div>
     )
