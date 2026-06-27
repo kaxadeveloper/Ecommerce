@@ -38,7 +38,7 @@ const Blogs = () => {
                     {
                         BlogData.map((data) => (
                             <div>
-                                <div>
+                                <div className='overflow-hidden rounded-2xl mb-2'>
                                     <img src={data.image} alt="" className='w-full h-[200px] object-contain rounded-2xl hover:scale-105 duration-500' />
                                 </div>
                                 <div className='space-y-2'>
