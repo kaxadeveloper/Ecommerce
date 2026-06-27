@@ -1,6 +1,10 @@
 import React from 'react'
 import Heading from '../Shared/Heading'
 
+import Img1 from "../../assets/blogs/b-1.jpg"
+import Img2 from "../../assets/blogs/b-2.jpg"
+import Img3 from "../../assets/blogs/b-3.jpg"
+
 const BlogData = [
     {
         title: "How to choose perfect smartwatch",
@@ -33,7 +37,11 @@ const Blogs = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7'>
                     {
                         BlogData.map((data) => (
-                            <div></div>
+                            <div>
+                                <div>
+                                    <img src={data.image} alt="" />
+                                </div>
+                            </div>
                         ))
                     }
                 </div>
