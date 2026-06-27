@@ -39,7 +39,7 @@ const Blogs = () => {
                         BlogData.map((data) => (
                             <div>
                                 <div>
-                                    <img src={data.image} alt="" />
+                                    <img src={data.image} alt="" className='w-full h-[200px] object-contain rounded-2xl hover:scale-105 duration-500' />
                                 </div>
                                 <div className='space-y-2'>
                                     <p className='text-xs text-gray-500'>{data.published}</p>
