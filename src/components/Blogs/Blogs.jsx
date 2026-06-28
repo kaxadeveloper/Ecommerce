@@ -37,7 +37,7 @@ const Blogs = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7'>
                     {
                         BlogData.map((data) => (
-                            <div>
+                            <div key={data.title} className='bg-white dark:bg-gray-900'>
                                 <div className='overflow-hidden rounded-2xl mb-2'>
                                     <img src={data.image} alt="" className='w-full h-[200px] object-contain rounded-2xl hover:scale-105 duration-500' />
                                 </div>
