@@ -10,6 +10,7 @@ import smartwatch from "./assets/hero/smartwatch.png"
 import Products from './components/Products/Products'
 import Blogs from './components/Blogs/Blogs'
 import Partners from './components/Partners/Partners'
+import Footer from './components/Footer/Footer'
 
 const BannerData = {
   discount: "30% OFF",
