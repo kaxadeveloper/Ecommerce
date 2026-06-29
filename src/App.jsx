@@ -46,6 +46,7 @@ const App = () => {
       <Banner data={BannerData2} />
       <Blogs />
       <Partners />
+      <Footer />
     </div>
   )
 }
