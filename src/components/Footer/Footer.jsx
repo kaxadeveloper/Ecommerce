@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='dark:bg-gray-950'>
-            <div className="container ">
-                <div className="grid">
+            <div className="container">
+                <div className="grid md:grid-cols-3 pb-20 pt-5">
                     <div>
                         <a
                             href="#"
