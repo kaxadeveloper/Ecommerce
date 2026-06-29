@@ -9,8 +9,11 @@ const Footer = () => {
                         <a
                             href="#"
                             className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
-                                Shophub
-                            </a>
+                            Shophub
+                        </a>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
                     </div>
                 </div>
             </div>
