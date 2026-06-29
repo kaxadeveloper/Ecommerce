@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <div className="container">
+        <div className='dark:bg-gray-950'>
+            <div className="container ">
                 <div className="grid">
                     <div>
                         <a
