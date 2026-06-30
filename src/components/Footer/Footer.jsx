@@ -14,7 +14,7 @@ const Footer = () => {
                         <p className='text-gray-600 lg:pr-24 pt-3'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </p>
-                        <p>
+                        <p className='text-gray-500 mt-4'>
                             Made with ❤️ by The CodingMaster
                         </p>
                     </div>
