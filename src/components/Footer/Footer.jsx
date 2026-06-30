@@ -1,5 +1,24 @@
 import React from 'react'
 
+const FooterLinks = [
+    {
+        title: "Home",
+        link: "/#",
+    },
+    {
+        title: "About",
+        link: "/#about",
+    },
+    {
+        title: "Contact",
+        link: "/#contact",
+    },
+    {
+        title: "Blog",
+        link: "/#blog",
+    },
+];
+
 const Footer = () => {
     return (
         <div className='dark:bg-gray-950'>
