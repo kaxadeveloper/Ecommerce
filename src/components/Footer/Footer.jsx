@@ -18,6 +18,11 @@ const Footer = () => {
                             Made with ❤️ by The CodingMaster
                         </p>
                     </div>
+                    <div>
+                        <div>
+                            <h1>Important Links</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
