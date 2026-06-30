@@ -57,6 +57,27 @@ const Footer = () => {
                                 }
                             </ul>
                         </div>
+
+                        <div className='py-8 px-4'>
+                            <h1 className='text-xl font-bold sm:text-left mb-3'>
+                                Quick Links
+                            </h1>
+                            <ul className='space-y-3'>
+                                {
+                                    FooterLinks.map((data, index) => (
+                                        <li key={index}>
+                                            <a
+                                                href={data.link}
+                                                className='text-gray-600 dark:text-gray-400 hover:dark:text-white hover:text-black duration-300'
+                                            >
+                                                {data.title}
+                                            </a>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>
