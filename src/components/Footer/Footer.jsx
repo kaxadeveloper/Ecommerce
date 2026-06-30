@@ -24,8 +24,8 @@ const Footer = () => {
                             <ul>
                                 {
                                     FooterLinks.map((data, index) => (
-                                        <li>
-                                            
+                                        <li key={index}>
+
                                         </li>
                                     ))
                                 }
