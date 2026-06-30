@@ -11,7 +11,7 @@ const Footer = () => {
                             className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
                             Shophub
                         </a>
-                        <p>
+                        <p className='text-gray-600 lg:pr-24 pt-3'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </p>
                         <p>
