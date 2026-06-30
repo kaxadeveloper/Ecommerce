@@ -18,7 +18,7 @@ const Footer = () => {
                             Made with ❤️ by The CodingMaster
                         </p>
                     </div>
-                    <div>
+                    <div className='col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10'>
                         <div>
                             <h1>Important Links</h1>
                         </div>
