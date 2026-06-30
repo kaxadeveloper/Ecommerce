@@ -83,6 +83,9 @@ const Footer = () => {
                             <div>
                                 <div className='flex'>
                                     <FaLocationArrow />
+                                    <p>Tbilisi,</p>
+                                    <p>Greorgia</p>
+                                    <p>+995 123123123</p>
                                 </div>
                             </div>
                         </div>
