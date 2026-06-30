@@ -14,6 +14,9 @@ const Footer = () => {
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </p>
+                        <p>
+                            Made with ❤️ by The CodingMaster
+                        </p>
                     </div>
                 </div>
             </div>
