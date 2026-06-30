@@ -78,6 +78,11 @@ const Footer = () => {
                             </ul>
                         </div>
 
+                        <div className='py-8 px-4 col-span-2 sm:col-auto'>
+                            <div>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
