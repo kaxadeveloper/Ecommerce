@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaMobileAlt } from 'react-icons/fa';
 import { FaLocationArrow } from 'react-icons/fa6';
 
 const FooterLinks = [
@@ -84,7 +85,9 @@ const Footer = () => {
                                 <div className='flex items-center gap-3'>
                                     <FaLocationArrow />
                                     <p>Tbilisi,</p>
-                                    <p>Greorgia</p>
+                                </div>
+                                <div className='flex items-center gap-3 mt-6'>
+                                    <FaMobileAlt />
                                     <p>+995 123123123</p>
                                 </div>
                             </div>
