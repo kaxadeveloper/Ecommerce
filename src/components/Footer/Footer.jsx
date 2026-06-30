@@ -81,7 +81,7 @@ const Footer = () => {
 
                         <div className='py-8 px-4 col-span-2 sm:col-auto'>
                             <div>
-                                <div className='flex'>
+                                <div className='flex items-center gap-3'>
                                     <FaLocationArrow />
                                     <p>Tbilisi,</p>
                                     <p>Greorgia</p>
