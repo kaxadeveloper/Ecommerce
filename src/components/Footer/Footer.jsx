@@ -19,7 +19,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className='col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10'>
-                        <div>
+                        <div className='py-8 px-4'>
                             <h1>Important Links</h1>
                         </div>
                     </div>
