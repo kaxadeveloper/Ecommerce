@@ -44,7 +44,12 @@ const Footer = () => {
                                 {
                                     FooterLinks.map((data, index) => (
                                         <li key={index}>
-
+                                            <a
+                                                href={data.link}
+                                                className='text-gray-600 hover:text-black duration-300'
+                                            >
+                                                {data.title}
+                                            </a>
                                         </li>
                                     ))
                                 }
