@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaLocationArrow } from 'react-icons/fa6';
 
 const FooterLinks = [
     {
@@ -80,7 +81,9 @@ const Footer = () => {
 
                         <div className='py-8 px-4 col-span-2 sm:col-auto'>
                             <div>
-                                
+                                <div className='flex'>
+                                    <FaLocationArrow />
+                                </div>
                             </div>
                         </div>
                     </div>
