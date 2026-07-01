@@ -94,7 +94,7 @@ const Footer = () => {
                                     <p>+995 123123123</p>
                                 </div>
 
-                                <div>
+                                <div className='flex items-center gap-3 mt-6'>
                                     <a href="#">
                                         <FaInstagram className='text-3xl hover:text-primary duration-300' />
                                     </a>
