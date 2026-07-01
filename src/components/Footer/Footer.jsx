@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMobileAlt } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin, FaMobileAlt } from 'react-icons/fa';
 import { FaInstagram, FaLocationArrow } from 'react-icons/fa6';
 
 const FooterLinks = [
@@ -97,6 +97,12 @@ const Footer = () => {
                                 <div>
                                     <a href="#">
                                         <FaInstagram className='text-3xl hover:text-primary duration-300' />
+                                    </a>
+                                    <a href="#">
+                                        <FaFacebook className='text-3xl hover:text-primary duration-300' />
+                                    </a>
+                                    <a href="#">
+                                        <FaLinkedin className='text-3xl hover:text-primary duration-300' />
                                     </a>
                                 </div>
                             </div>
