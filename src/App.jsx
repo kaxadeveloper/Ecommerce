@@ -55,7 +55,7 @@ const App = () => {
       <Blogs />
       <Partners />
       <Footer />
-      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+      <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
     </div>
   )
 }
