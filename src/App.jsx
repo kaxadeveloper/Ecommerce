@@ -36,7 +36,7 @@ const BannerData2 = {
 };
 
 const App = () => {
-  const [orderPopup, setOrderPopup] = useState(false);
+  const [orderPopup, setOrderPopup] = useState(true);
 
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
