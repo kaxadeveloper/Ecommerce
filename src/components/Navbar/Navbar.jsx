@@ -44,7 +44,7 @@ const DropdownLinks = [
     },
 ]
 
-const Navbar = () => {
+const Navbar = ({ handleOrderPopup }) => {
     return (
         <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
             <div className='py-4'>
@@ -79,7 +79,7 @@ const Navbar = () => {
                                             {
                                                 DropdownLinks.map((data, index) => (
                                                     <li>
-                                                      <a className='text-gray-500 dark:hover:text-wh duration-200inline-block w-full  p-2 hover:bg-primary/20 rounded-md font-semibold' href={data.link}>{data.name}</a>
+                                                        <a className='text-gray-500 dark:hover:text-wh duration-200inline-block w-full  p-2 hover:bg-primary/20 rounded-md font-semibold' href={data.link}>{data.name}</a>
                                                     </li>
                                                 ))
                                             }
