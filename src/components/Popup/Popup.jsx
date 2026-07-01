@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoCloseOutline } from 'react-icons/io5'
+import Button from '../Shared/Button'
 
 const Popup = ({ orderPopup, handleOrderPopup }) => {
     return (
@@ -21,6 +22,9 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                     <input type="text" placeholder='Name' className='form-input' />
                                     <input type="email" placeholder='Email' className='form-input' />
                                     <input type="text" placeholder='Address' className='form-input' />
+                                    <div>
+                                        <Button text="Order Now" bgColor={"bg-primary"} textColor={"text-white"} />
+                                    </div>
                                 </div>
                             </div>
                         </div>
