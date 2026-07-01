@@ -19,6 +19,7 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                 </div>
                                 <div>
                                     <input type="text" placeholder='Name' className='form-input' />
+                                    <input type="text" placeholder='Address' className='form-input' />
                                 </div>
                             </div>
                         </div>
