@@ -22,7 +22,7 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                     <input type="text" placeholder='Name' className='form-input' />
                                     <input type="email" placeholder='Email' className='form-input' />
                                     <input type="text" placeholder='Address' className='form-input' />
-                                    <div>
+                                    <div className='flex justify-center'>
                                         <Button text="Order Now" bgColor={"bg-primary"} textColor={"text-white"} />
                                     </div>
                                 </div>
