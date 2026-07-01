@@ -9,7 +9,9 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                     <div className='flex items-center justify-between'>
                         <h1>Order Now</h1>
                         <div>
-                            <IoCloseOutline className='text-2xl cursor-pointer' />
+                            <IoCloseOutline
+                                onClick={() => setOrderPopup(!orderPopup)}
+                                className='text-2xl cursor-pointer' />
                         </div>
                     </div>
                 </div>
