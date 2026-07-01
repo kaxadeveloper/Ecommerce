@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Category from './components/Category/Category'
@@ -11,6 +11,7 @@ import Products from './components/Products/Products'
 import Blogs from './components/Blogs/Blogs'
 import Partners from './components/Partners/Partners'
 import Footer from './components/Footer/Footer'
+import Popup from './components/Popup/Popup'
 
 const BannerData = {
   discount: "30% OFF",
@@ -35,6 +36,8 @@ const BannerData2 = {
 };
 
 const App = () => {
+  const [orderPopup, setOrderPopup] = useState(false);
+
   return (
     <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden'>
       <Navbar />
@@ -48,6 +51,7 @@ const App = () => {
       <Blogs />
       <Partners />
       <Footer />
+      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
     </div>
   )
 }
