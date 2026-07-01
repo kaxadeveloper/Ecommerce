@@ -1,5 +1,5 @@
 import React from 'react'
-import { IoMdCloseCircleOutline } from 'react-icons/io'
+import { IoCloseOutline } from 'react-icons/io5'
 
 const Popup = ({ orderPopup, setOrderPopup }) => {
     return (
@@ -9,7 +9,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                     <div>
                         <h1>Order Now</h1>
                         <div>
-                            <IoMdCloseCircleOutline />
+                            <IoCloseOutline />
                         </div>
                     </div>
                 </div>
