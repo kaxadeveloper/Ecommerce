@@ -9,7 +9,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                     <div>
                         <h1>Order Now</h1>
                         <div>
-                            <IoCloseOutline />
+                            <IoCloseOutline className='text-2xl cursor-pointer' />
                         </div>
                     </div>
                 </div>
