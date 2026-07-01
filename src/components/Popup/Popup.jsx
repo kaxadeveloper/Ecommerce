@@ -18,7 +18,7 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                             className='text-2xl cursor-pointer' />
                                     </div>
                                 </div>
-                                <div>
+                                <div className='mt-4'>
                                     <input type="text" placeholder='Name' className='form-input' />
                                     <input type="email" placeholder='Email' className='form-input' />
                                     <input type="text" placeholder='Address' className='form-input' />
