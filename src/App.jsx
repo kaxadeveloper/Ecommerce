@@ -38,6 +38,10 @@ const BannerData2 = {
 const App = () => {
   const [orderPopup, setOrderPopup] = useState(false);
 
+  const handleOrderPopup = () => {
+    setOrderPopup(!orderPopup);
+  }
+
   return (
     <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden'>
       <Navbar />
