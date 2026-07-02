@@ -73,7 +73,10 @@ const Hero = ({ handleOrderPopup }) => {
                                             </div>
                                         </div>
                                         <div className='order-1 sm:order-2'>
-                                            <div>
+                                            <div
+                                             data-aos="zoom-in" data-aos-once="true"
+                                             className='relative z-10'
+                                            >
                                                 <img src={data.img} alt=""
                                                     className='w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-120 object-contain  mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative z-40'
                                                 />
