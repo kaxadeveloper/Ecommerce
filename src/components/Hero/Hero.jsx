@@ -62,7 +62,7 @@ const Hero = ({ handleOrderPopup }) => {
                                             <h1 className='text-5xl uppercase text-white dark:text-white/5 sm:text-[80px] md:text-[100px] xl:text-[150px] font-bold'>{data.title2}</h1>
                                             <div>
                                                 <Button text="Shop By Category" bgColor="bg-primary" textColor="text-white"
-                                                    handleOrderPopup={handleOrderPopup}
+                                                    handler={handleOrderPopup}
                                                 />
                                             </div>
                                         </div>
