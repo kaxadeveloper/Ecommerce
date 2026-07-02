@@ -12,6 +12,7 @@ const BlogData = [
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique optio repudiandae quo nostrum harum nihil?",
         published: "Jan 27, 2026 by Dilshad",
         image: Img1,
+        aosDelay: "0",
     },
     {
         title: "How to choose perfect gadget",
@@ -19,6 +20,7 @@ const BlogData = [
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique optio repudiandae quo nostrum harum nihil?",
         published: "Jan 27, 2026 by Satya",
         image: Img2,
+        aosDelay: "200",
     },
     {
         title: "How to choose perfect VR headset",
@@ -26,6 +28,7 @@ const BlogData = [
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique optio repudiandae quo nostrum harum nihil?",
         published: "Jan 27, 2026 by Sabir",
         image: Img3,
+        aosDelay: "400",
     },
 ]
 
